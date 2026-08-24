@@ -1,0 +1,58 @@
+site_name: PyUI
+site_description: Framework GUI desktop Python au-dessus de Tkinter/ttk
+site_author: PyUI
+repo_url: https://github.com/YOUR_USERNAME/pyui
+repo_name: pyui
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clair
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+nav:
+  - Accueil: index.md
+  - Installation: installation.md
+  - Démarrage rapide: quickstart.md
+  - Tutoriel: tutorial.md
+  - Composants: components.md
+  - Placement: placement.md
+  - Layouts: layouts.md
+  - Formulaires: forms.md
+  - Table de données: tables.md
+  - Navigation: navigation.md
+  - Thème: theme.md
+  - Icônes: icons.md
+  - État: state.md
+  - Dialogues & notifications: dialogs.md
+  - Référence API: api_reference.md
+  - Exemples: examples.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YOUR_USERNAME/pyui

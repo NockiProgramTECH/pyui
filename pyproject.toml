@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyui"
+version = "0.1.0"
+description = "Framework GUI desktop Python au-dessus de Tkinter/ttk"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "PyUI", email = "contact@pyui.dev" }
+]
+keywords = ["gui", "tkinter", "framework", "desktop", "dashboard"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: User Interfaces"
+]
+
+[project.urls]
+Homepage = "https://github.com/pyui/pyui"
+Documentation = "https://pyui.readthedocs.io"
+Source = "https://github.com/pyui/pyui"
+Issues = "https://github.com/pyui/pyui/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "build>=1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pyui = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.coverage.run]
+source = ["pyui"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
