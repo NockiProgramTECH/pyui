@@ -16,6 +16,9 @@ venv/
 .coverage
 htmlcov/
 
+# Docs
+site/
+
 # OS
 Thumbs.db
 .DS_Store
