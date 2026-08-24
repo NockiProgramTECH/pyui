@@ -1,12 +1,21 @@
 ﻿# PyUI
 
-![Python](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue?logo=python)
-![License MIT](https://img.shields.io/badge/license-MIT-green)
-![Version](https://img.shields.io/badge/version-0.1.0-0A8?logo=python)
-![Tests](https://img.shields.io/badge/tests-110%20passed-brightgreen)
-![Coverage](https://img.shields.io/badge/coverage-77%25-yellow)
-![PyPI](https://img.shields.io/pypi/v/pyui-gui)
-![CI](https://github.com/NockiProgramTECH/pyui/actions/workflows/ci.yml/badge.svg)
+<p align="center">
+  <img src="docs/images/logo.png" alt="PyUI" width="160">
+</p>
+
+<p align="center">
+  <b>PyUI</b> — Framework GUI desktop Python au-dessus de Tkinter/ttk
+</p>
+
+<p align="center">
+  <a href="https://pypi.org/project/pyui-gui"><img src="https://img.shields.io/pypi/v/pyui-gui" alt="PyPI"></a>
+  <a href="https://pypi.org/project/pyui-gui"><img src="https://img.shields.io/pypi/pyversions/pyui-gui" alt="Python versions"></a>
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="License MIT">
+  <img src="https://img.shields.io/badge/tests-110%20passed-brightgreen" alt="Tests">
+  <img src="https://img.shields.io/badge/coverage-77%25-yellow" alt="Coverage">
+  <a href="https://github.com/NockiProgramTECH/pyui/actions/workflows/ci.yml"><img src="https://github.com/NockiProgramTECH/pyui/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+</p>
 
 **PyUI** — Framework GUI desktop Python au-dessus de Tkinter/ttk.
 
@@ -15,6 +24,8 @@ explicite, un design system réactif (clair/sombre), des layouts déclaratifs, d
 formulaires validés, un DataTable triable/paginé, une navigation avec historique,
 des notifications toast et un Dashboard intégré — **sans `**kwargs`** dans les
 signatures publiques.
+
+**Disponible sur PyPI** : <https://pypi.org/project/pyui-gui>
 
 ---
 

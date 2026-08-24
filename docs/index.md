@@ -1,6 +1,12 @@
 # Documentation PyUI
 
+<p align="center">
+  <img src="images/logo.png" alt="PyUI" width="140">
+</p>
+
 **PyUI** est un framework GUI desktop Python au-dessus de Tkinter/ttk. Il fournit une couche d'abstraction moderne avec des composants réutilisables, des layouts, un système de thème, des formulaires, un DataTable, une navigation intégrée et des notifications.
+
+**Disponible sur PyPI** : [`pyui-gui`](https://pypi.org/project/pyui-gui) — `pip install pyui-gui`
 
 ## Table des matières
 
