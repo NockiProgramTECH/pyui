@@ -1,7 +1,7 @@
-site_name: PyUI
+﻿site_name: PyUI
 site_description: Framework GUI desktop Python au-dessus de Tkinter/ttk
 site_author: PyUI
-repo_url: https://github.com/YOUR_USERNAME/pyui
+repo_url: https://github.com/NockiProgramTECH/pyui
 repo_name: pyui
 theme:
   name: material
@@ -55,4 +55,4 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/YOUR_USERNAME/pyui
+      link: https://github.com/NockiProgramTECH/pyui

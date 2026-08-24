@@ -1,11 +1,11 @@
-# PyUI
+﻿# PyUI
 
 ![Python](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue?logo=python)
 ![License MIT](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-0.1.0-0A8?logo=python)
 ![Tests](https://img.shields.io/badge/tests-110%20passed-brightgreen)
 ![Coverage](https://img.shields.io/badge/coverage-77%25-yellow)
-![CI](https://github.com/YOUR_USERNAME/pyui/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/NockiProgramTECH/pyui/actions/workflows/ci.yml/badge.svg)
 
 **PyUI** — Framework GUI desktop Python au-dessus de Tkinter/ttk.
 
