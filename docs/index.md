@@ -44,8 +44,10 @@ Application
 
 ## Package
 
+Disponible sur PyPI :
+
 ```bash
-pip install -e .
+pip install pyui-gui
 ```
 
 ```python
@@ -54,3 +56,5 @@ from pyui import App, Sidebar, Card, Button
 app = App(title="Mon application")
 app.run()
 ```
+
+> Installation complète (PyPI, développement, wheel) : [installation.md](installation.md)

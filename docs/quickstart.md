@@ -1,5 +1,8 @@
 # Démarrage rapide
 
+> **Avant tout** : installer le framework → `pip install pyui-gui`
+> (voir [installation](installation.md) pour les autres méthodes).
+
 ## Fenêtre minimale
 
 ```python

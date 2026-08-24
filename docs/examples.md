@@ -1,8 +1,12 @@
 # Exemples
 
-Tous les exemples se trouvent dans le dossier `examples/`. Lancez-les avec :
+Les exemples font partie du **dépôt source** (ils ne sont pas inclus dans le
+package PyPI). Pour les lancer :
 
 ```bash
+git clone https://github.com/NockiProgramTECH/pyui.git
+cd pyui
+pip install pyui-gui        # ou : pip install -e ".[dev]"
 python examples/01_hello.py
 ```
 

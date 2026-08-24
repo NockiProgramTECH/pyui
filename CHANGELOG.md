@@ -6,6 +6,22 @@ Toutes les modifications notables de PyUI seront documentées dans ce fichier.
 
 - Aucune modification en attente.
 
+## [0.1.1] — 2026-08-24
+
+Publication officielle sur PyPI.
+
+### Publication
+- Distribution renommée **`pyui-gui`** (noms `pyui` et `pyui-framework` occupés sur PyPI)
+- Package publié : `pip install pyui-gui` (wheel + sdist, Python 3.9+)
+- Workflow `publish.yml` : upload strict (suppression de `--skip-existing` pour rendre les échecs visibles)
+- URLs réelles dans les métadonnées : GitHub `NockiProgramTECH/pyui`, docs GitHub Pages
+- Badge PyPI ajouté au README
+
+### Documentation
+- Guide d'installation réécrit : installation en ligne (`pip install pyui-gui`) en méthode principale
+- `docs/index.md`, `docs/quickstart.md`, `docs/examples.md` mis à jour
+- Notes d'installation ajoutées au tutoriel et aux exemples
+
 ## [0.1.0] — 2026-08-24
 
 Version 0.1.0 — **PREMIÈRE VERSION STABLE**.
