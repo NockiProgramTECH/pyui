@@ -74,10 +74,10 @@ python examples/08_state.py          # État réactif
 pip install -e ".[dev]"
 
 # Depuis un wheel (construit)
-pip install dist/pyui_framework-0.1.0-py3-none-any.whl
+pip install dist/pyui_gui-0.1.0-py3-none-any.whl
 
 # Depuis PyPI
-pip install pyui-framework
+pip install pyui-gui
 ```
 
 ## Contribuer
