@@ -5,6 +5,7 @@
 ![Version](https://img.shields.io/badge/version-0.1.0-0A8?logo=python)
 ![Tests](https://img.shields.io/badge/tests-110%20passed-brightgreen)
 ![Coverage](https://img.shields.io/badge/coverage-77%25-yellow)
+![PyPI](https://img.shields.io/pypi/v/pyui-gui)
 ![CI](https://github.com/NockiProgramTECH/pyui/actions/workflows/ci.yml/badge.svg)
 
 **PyUI** — Framework GUI desktop Python au-dessus de Tkinter/ttk.

@@ -4,7 +4,7 @@ import pyui
 
 
 def test_version():
-    assert pyui.__version__ == "0.1.0"
+    assert pyui.__version__ == "0.1.1"
 
 
 def test_all_names_importable():

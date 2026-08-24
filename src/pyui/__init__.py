@@ -59,7 +59,7 @@ from pyui.dialogs.dialog import Dialog, ConfirmDialog, ErrorDialog, SuccessDialo
 from pyui.notifications.toast import Toast
 from pyui.notifications.notification import Notification
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "App", "Component", "Event", "EventBus", "Router", "State", "Page",
