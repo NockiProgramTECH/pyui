@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [
-    { name = "PyUI", email = "contact@pyui.dev" }
+    { name = "PyUI", email = "lankoandeenock002@gmail.com" }
 ]
 keywords = ["gui", "tkinter", "framework", "desktop", "dashboard"]
 classifiers = [
